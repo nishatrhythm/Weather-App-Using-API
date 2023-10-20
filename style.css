@@ -113,7 +113,7 @@ body {
   transform: translateY(-120%);
 }
 
-.container.active .weather-box .box .info-weather
+.container.active .weather-box .box .info-weather,
 .container.active .weather-details .humidity .info-humidity,
 .container.active .weather-details .wind .info-wind {
   transform: translateY(0%);

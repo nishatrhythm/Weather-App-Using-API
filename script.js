@@ -98,9 +98,9 @@ search.addEventListener('click', () => {
             elCloneInfoWind.classList.add('active-clone');
 
             setTimeout(() => {
-                infoWeather.insertAdjacentElement('afterend', elCloneInfoWeather);
-                infoHumidity.insertAdjacentElement('afterend', elCloneInfoHumidity);
-                infoWind.insertAdjacentElement('afterend', elCloneInfoWind);
+                infoWeather.insertAdjacentElement("afterend", elCloneInfoWeather);
+                infoHumidity.insertAdjacentElement("afterend", elCloneInfoHumidity);
+                infoWind.insertAdjacentElement("afterend", elCloneInfoWind);
             }, 2200);
 
             const cloneInfoWeather = document.querySelectorAll('.info-weather.active-clone');
@@ -108,10 +108,10 @@ search.addEventListener('click', () => {
             const cloneInfoWeatherFirst = cloneInfoWeather[0];
 
             const cloneInfoHumidity = document.querySelectorAll('.info-humidity.active-clone');
-            const cloneInfoHumidityFirst = cloneInfoHumidity.length;
+            const cloneInfoHumidityFirst = cloneInfoHumidity[0];
 
             const cloneInfoWind = document.querySelectorAll('.info-wind.active-clone');
-            const cloneInfoWindFirst = cloneInfoWind.length;
+            const cloneInfoWindFirst = cloneInfoWind[0];
 
             if (totalCloneInfoWeather > 0) {
                 cloneInfoWeatherFirst.classList.remove('active-clone');
